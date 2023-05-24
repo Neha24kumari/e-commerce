@@ -1,0 +1,65 @@
+@media (max-width:1030px){
+    /* home css */
+    .home .home-banner-1,
+    .home .home-banner-2{
+        background-position: 65% center;
+        min-height: 550px;
+    }
+    .home .home-banner .home-banner-text{
+        transform: translate(-80%, -50%);
+    }
+}
+
+@media(max-width:991px){
+    /* ipad */
+    /* home */
+    .home .home-banner .home-banner-text{
+        transform: translate(-60%, -50%);
+        text-align: center;
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 3rem;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 3rem;
+    }
+
+}
+
+@media(max-width:767px){
+    /* home */
+    .home .home-banner .home-banner-1,
+    .home .home-banner .home-banner-2{
+        background-position: 50%, center;
+        min-height: 450px;
+    }
+
+    .home .home-banner .home-banner-text{
+        text-align: center;
+        width: 100%;
+        translate: (-50%, -50%);
+
+    }
+    .home .home-banner .home-banner-text h1{
+        font-size: 1.2rem;
+        text-align: center;
+        margin-left: 70%;
+    }
+    .home .home-banner .home-banner-text h2{
+        font-size: 1rem;
+        
+        margin-left: 100%;
+    }
+    .home .home-banner .home-banner-text .btn-danger{
+        padding-left: 0%;
+        margin-left: 95%;
+        font-size: 0.8rem;
+        text-align: center;
+        height: fit-content;
+    }
+    .home .slider-icon{
+        font-size: 1.5rem;
+    }
+
+}
+
